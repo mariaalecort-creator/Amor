@@ -4,6 +4,7 @@ body {
     align-items: center;
     flex-direction: column;
     display: flex;
+    flex-direction: column;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .container {
@@ -35,4 +36,9 @@ img {
     font-display: swap;
     right: 50%;
     font-style: italic;
+}
+
+#traduccion {
+    font-family: serif;
+    font-size: smaller;
 }
