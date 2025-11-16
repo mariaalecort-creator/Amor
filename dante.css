@@ -16,6 +16,7 @@ body {
   padding: 2rem;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 #titulo {
     font-size: 2em;
@@ -25,10 +26,7 @@ body {
 img {
     width: 60%;
     height: auto;
-    display: flex;
-    position: center;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
 }
 
 #cita {
@@ -41,4 +39,14 @@ img {
 #traduccion {
     font-family: serif;
     font-size: smaller;
+}
+
+#hilosCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: -1;
 }
