@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #1b2b3f;
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 40px;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.collage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.item {
+  position: relative;
+  cursor: pointer;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.item img:hover {
+  transform: scale(1.07);
+}
+
+.info {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #f8f4f4;
+  min-height: 20px;
+  font-style: italic;
+}

@@ -32,3 +32,12 @@ img {
   pointer-events: none;
   background-repeat: no-repeat;
 }
+
+#foto {
+  width: 300px;
+  height: auto; 
+}
+
+#Texto {
+  color: rgb(73, 67, 67);
+}
